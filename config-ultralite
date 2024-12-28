@@ -53,7 +53,6 @@ EOF
 
     # alter packages
     cat << EOF >> packages.x86_64
-nano
 bash-completion
 EOF
     cat << EOF > packages.x86_64.remove
@@ -72,7 +71,6 @@ grml-zsh-config
 hdparm
 ipw2100-fw
 ipw2200-fw
-iwd
 kitty-terminfo
 lftp
 linux-firmware
@@ -102,7 +100,6 @@ terminus-font
 testdisk
 usb_modeswitch
 usbutils
-vim
 vpnc
 wireless-regdb
 wireless_tools
