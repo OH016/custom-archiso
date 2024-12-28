@@ -7,8 +7,8 @@ name: livecd_builder
 on:
   push:
     branches: [ master ]
-  schedule:
-    - cron: '0 3 2,16 * *'
+  watch:
+    types: starte
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -23,7 +23,7 @@ jobs:
       matrix:
         LIVECD_PROFILE:
         - ultralite
-        - default
+        - 默认
         - xfce
         - kde
 
