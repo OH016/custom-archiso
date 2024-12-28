@@ -53,6 +53,7 @@ EOF
 
     # alter packages
     cat << EOF >> packages.x86_64
+linux-lts
 bash-completion
 EOF
     cat << EOF > packages.x86_64.remove
@@ -133,6 +134,7 @@ screen
 pv
 grub
 refind
+linux
 linux-firmware-marvell
 dmidecode
 hyperv
