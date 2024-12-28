@@ -7,8 +7,7 @@ name: livecd_builder
 on:
   push:
     branches: [ master ]
-  watch:
-    types: starte
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
